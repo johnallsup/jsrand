@@ -1,12 +1,6 @@
-# jsrand a.k.a. seeded-rand
-[<img align="right" src="https://nodei.co/npm/seeded-rand.png" />](https://www.npmjs.com/package/seeded-rand)
+# jsrand 
 
-[![Build Status][build-status]][build-status-url]
-[![Build Size][build-size]][build-size-url]
-[![NPM Downloads][npm-downloads]][npmtrends-url]
-[![NPM][license]][license-url]
-
-A seeded pseudo-random number generator for JavaScript.
+A seeded pseudo-random number generator for JavaScript. Forked from https://github.com/DomenicoDeFelice/jsrand (people should generally go there for code -- this fork exists simply because I use it in its current form in my musicjs practice aids).
 
 It can be used as either a plain script or as a [Node.js module](https://www.npmjs.com/package/seeded-rand).
 
@@ -17,9 +11,6 @@ jsrand supports saving and restoring the generator state and common operations o
 [See changelog here](https://github.com/DomenicoDeFelice/jsrand/blob/master/CHANGELOG.md).
 
 ## Table of contents
-  * [Install](#install)
-    * [NPM](#npm)
-    * [Plain script](#plain-script)
   * [Usage](#usage)
     * [Examples](#examples)
   * [API](#api)
@@ -36,17 +27,7 @@ jsrand supports saving and restoring the generator state and common operations o
     * [`setState`](#setstate)
     * [`shuffle`](#shuffle)
   * [License](#license)
-
-## Install
-### NPM
-
-```
-$ npm install seeded-rand
-```
-
-### Plain script
-Just download [dist/jsrand.min.js](https://raw.githubusercontent.com/DomenicoDeFelice/jsrand/master/dist/jsrand.min.js) and (optionally) [dist/jsrand.min.js.map](https://raw.githubusercontent.com/DomenicoDeFelice/jsrand/master/dist/jsrand.min.js.map) and include it in your app.
-
+  
 ## Usage
 
 <table>
